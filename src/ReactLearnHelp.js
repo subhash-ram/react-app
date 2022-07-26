@@ -22,3 +22,13 @@
 //eject: 
 //react-scripts eject can be used to eject from create-react-app which will create a new folder "config" in the application and also add a lot more dependencies in the package.json file
 // "eject" can be used to have custom configuration for webpack configuration for Prod/Dev environments in config folder.
+
+
+//props:
+//every react component can have a set of attributes which can be accessed using this.props. For example when we add the counter component
+// in another component like below we could have additional attributes or props added to it.
+//<Counter key={counter.id} value={counter.value} selected = {true} />
+//In the actual Counter component counter.jsx we could access these attributes or props using the below code
+//Console.log('props', this.props);
+
+
